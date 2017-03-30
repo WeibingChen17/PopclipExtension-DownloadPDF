@@ -2,8 +2,8 @@ watchFolder=${POPCLIP_OPTION_MENDELEYWATCHEDFOLDER%/}
 downloadFile=${POPCLIP_TEXT##*/}
 downloadFile="${downloadFile%.pdf}.pdf"
 
-#if the url does not start with http://, add it
-if [ ${POPCLIP_TEXT#http://} == $POPCLIP_TEXT ]; then 
+#if the url does not start with http:// or https://, add it
+if [[ $POPCLIP_TEXT != http* ]] 
     POPCLIP_TEXT="http://$POPCLIP_TEXT"
 fi
 

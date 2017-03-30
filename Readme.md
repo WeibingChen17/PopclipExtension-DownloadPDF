@@ -5,6 +5,7 @@ Inspired by the popclip extension and watched folder in mendeley, I wrote this e
 
 ## Requirements
 1. Popclip.
+2. wget
 2. Mendeley Desktop for MacOS. The Watched Folder can be turned on in Preferences -> Watched Folders
 ## Installation
 1. Download the MendeleyImport.popclipextz and double click it.
