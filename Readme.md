@@ -10,5 +10,5 @@ Inspired by the popclip extension and watched folder in mendeley, I wrote this e
 1. Download the MendeleyImport.popclipextz and double click it.
 2. Input the absolute path to your Watched Folder of Mendeley Desktop and click OK.
 ## Usage
-1. Select a URL of a pdf file (begins with http and ends with .pdf).
+1. Select a URL of a pdf file 
 2. Wait for the download to finish.

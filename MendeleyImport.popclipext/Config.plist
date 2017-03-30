@@ -17,8 +17,6 @@
             <string>show-status</string>
 		</dict>
 	</array>
-    <key>Regular Expression</key>
-    <string>(?s)^http.{1,}\.pdf$</string>
     <key>Long Running</key>
     <true/>
     <key>Options</key>
