@@ -1,4 +1,4 @@
-watchFolder=${POPCLIP_OPTION_MENDELEYWATCHEDFOLDER%/}
+watchFolder="${POPCLIP_OPTION_GIVENFOLDER%/}"
 downloadFile=${POPCLIP_TEXT##*/}
 downloadFile="${downloadFile%.pdf}.pdf"
 echo $watchFolder, $downloadFile >> /tmp/message
@@ -10,11 +10,11 @@ if [[ $target != http* ]];then
 fi
 echo $target >> /tmp/message
 
-if [ -n $watchFolder ]; then
-    if [ ! -d $watchFolder ]; then
-       mkdir $watchFolder
+if [ -n "$watchFolder" ]; then
+    if [ ! -d "$watchFolder" ]; then
+       mkdir "$watchFolder"
     fi 
-    wget "$target" -O $watchFolder/$downloadFile
+    wget "$target" -O "$watchFolder"/$downloadFile
     exit $?
 else
     exit 1

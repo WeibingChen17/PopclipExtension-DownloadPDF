@@ -6,13 +6,13 @@
 	<array>
 		<dict>
 			<key>Image File</key>
-			<string>MendeleyImport.png</string>
+			<string>DownloadPDF.png</string>
 			<key>Shell Script File</key>
-			<string>MendeleyImport.sh</string>
+			<string>DownloadPDF.sh</string>
 			<key>Stoppable</key>
 			<true/>
 			<key>Title</key>
-			<string>MendeleyImport</string>
+			<string>DownloadPDF</string>
             <key>After</key>
             <string>show-status</string>
 		</dict>
@@ -23,21 +23,21 @@
     <array>
         <dict>
             <key>Option Identifier</key>
-            <string>mendeleywatchedfolder</string>
+            <string>givenfolder</string>
             <key>Option Type</key>
             <string>string</string>
             <key>Option Label</key>
-            <string>Watched Folder</string>
+            <string>Gvien Folder</string>
         </dict>
     </array>
 	<key>Extension Description</key>
-    <string>Download the pdf in the selected URL to the watch folder of Mendeley (if not exsited,the directory is created)</string>
+    <string>Download the pdf in the selected URL to a given folder (if not exsited,the directory is created)</string>
 	<key>Extension Identifier</key>
-	<string>com.myextension.MendeleyImport</string>
+	<string>com.myextension.DownloadPDF</string>
 	<key>Extension Name</key>
 	<dict>
 		<key>en</key>
-		<string>MendeleyImport</string>
+		<string>DownloadPDF</string>
 	</dict>
 	<key>Required Software Version</key>
 	<integer>693</integer>
